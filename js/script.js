@@ -105,7 +105,6 @@ const createKeyAnswers = data => {
 const createAnswer = data => {
     const type = data.type;
     const answers = createKeyAnswers(data);
-    console.log(answers);
 
     const labels = answers.map((item, i) => {
         const label = document.createElement('label');
@@ -263,10 +262,8 @@ const addClick = (buttons, data) => {
 
 const initQuiz = async () => {
     const data = await getData();
-    console.log(data);
 
     const buttons = renderTheme(data);
-    console.log(buttons);
 
     addClick(buttons, data);
 };
