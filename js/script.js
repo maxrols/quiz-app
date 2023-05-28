@@ -78,7 +78,7 @@ const renderTheme = themes => {
             p.classList.add('selection__result');
             p.innerHTML = `
                 <span class="selection__result-ratio">${result}/${themes[i].list.length}</span>
-                <span class="selection__result-text">Последний результат</span>
+                <span class="selection__result-text">Last Result</span>
             `;
             li.append(p);
         }
@@ -145,7 +145,7 @@ const showResult = (result, quiz) => {
 
     block.innerHTML = `
     <h2 class="main__subtitle main__subtitle_result">
-        Ваш результат
+        Your Result
     </h2>
     <div class="result__box">
         <p class="result__ratio result__ratio_${ratio + 1}">${result}/${quiz.list.length}</p>
@@ -155,7 +155,7 @@ const showResult = (result, quiz) => {
 
     const button = document.createElement('button');
     button.classList.add('main__btn', 'result__return');
-    button.textContent = 'К списку квизов';
+    button.textContent = 'Return To Quiz List';
 
     block.append(button);
 
@@ -208,7 +208,7 @@ const renderQuiz = quiz => {
         const button = document.createElement('button');
         button.classList.add('main__btn', 'question__next');
         button.type = 'submit';
-        button.textContent = "Подтвердить";
+        button.textContent = "Apply";
 
         fieldset.append(legend, ...answersData.labels);
         form.append(fieldset, button);

@@ -3,115 +3,115 @@
     "id": "622",
     "theme": "Frontend",
     "result": [
-      [30, "есть зададтки, нужно развивать"],
-      [60, "очень хорошо, но есть пробелы"],
-      [90, "отличный результат"]
+      [30, "you should learn more"],
+      [60, "very good, but you should repeat some topics"],
+      [90, "excellent"]
     ],
     "list": [
       {
         "type": "radio",
-        "question": "Расшифруйте аббревиатуру HTML",
+        "question": "What does HTML mean",
         "answers": ["HyperText Markup Language", "HeadingText Markup Language", "HyperText Mode Language", "HeadingText Markup Language"]
       },
       {
         "type": "radio",
-        "question": "Какой тег используется для создания ссылки",
+        "question": "Which tag is used for links",
         "answers": ["<a>", "<link>", "<p>", "<button>"]
       },
       {
         "type": "radio",
-        "question": "Где должен быть тег title?",
+        "question": "Where should you place the <title> tag?",
         "answers": ["head", "main", "body", "footer"],
         "correct": 1
       },
       {
         "type": "radio",
-        "question": "Какая из предложенных ссылок является абсолютной?",
+        "question": "Which link is absolute?",
         "answers": ["http://www.site.com/page.html", "/page.html", "./page.html", "page.html"]
       },
       {
         "type": "radio",
-        "question": "Тег для вывода изображений",
+        "question": "Which tag is used for images?",
         "answers": ["img", "image", "picture", "figure"]
       },
       {
         "type": "radio",
-        "question": "Можно ли строчные элементы вкладывать в блочные?",
-        "answers": ["да, можно", "нет, это не семантичная верстка", "можно, только осторожно", "нет, это не валидно"]
+        "question": "Can you place incline elements into block elements?",
+        "answers": ["yes", "no, it's not semantic", "yes, but you should be careful", "no, it's not valid"]
       },
       {
         "type": "radio",
-        "question": "Сколько атрибутов id может быть на странице",
-        "answers": ["Один", "Два", "Сколько угодно", "Не одного, нет такого атрибута"]
+        "question": "How many times you can use ID on a page?",
+        "answers": ["One", "Two", "There is no limit", "There is no attribute ID"]
       },
       {
         "type": "checkbox",
-        "question": "Какие теги используются для списков",
+        "question": "Which tags are used for lists?",
         "answers": ["dl", "ol", "ul", "rl"],
         "correct": 3
       },
       {
         "type": "radio",
-        "question": "Как сделать элемент flex-контейнером?",
+        "question": "How to make element flex?",
         "answers": ["display: flex", "<flex>", "class=\"flex\"", "flex: 1"]
       },
       {
         "type": "checkbox",
-        "question": "Выберите значения свойства justify-content",
+        "question": "Choose values for justify-content",
         "answers": ["space-around", "space-between", "space-evenly", "space-revert"],
         "correct": 3
       },
       {
         "type": "radio",
-        "question": "Какое значение по умолчанию у свойства align-items?",
+        "question": "Which default value is in align-items?",
         "answers": ["stretch", "initial", "center", "space-around"]
       },
       {
         "type": "radio",
-        "question": "Можно ли использовать технологию Flex и Grid в одном проекте?",
-        "answers": ["да", "нет", "да, но только на разных страницах", "нет это сломает вёрстку"]
+        "question": "Can you use flex and grid in the same website?",
+        "answers": ["yes", "no", "yes, but on diffent pages", "no, it will ruin the layout"]
       },
       {
         "type": "radio",
-        "question": "Может ли грид-элемент быть грид-контейнером?",
-        "answers": ["да", "нет, вёрстка сломается", "да, только если inline-grid", "нет, так не работает"]
+        "question": "Can grid element be a grid container?",
+        "answers": ["yes", "no, it will ruin the layout", "yes, but only inline-grid", "no, it's not valid"]
       },
       {
         "type": "checkbox",
-        "question": "Как в JavaScript создать массив?",
+        "question": "How to define an array in JavaScript?",
         "answers": ["[]", "new Array()", "Array()", "array()"],
         "correct": 3
       },
       {
         "type": "radio",
-        "question": "Этот оператор завершает выполнение текущей функции и возвращает её значение.",
+        "question": "Which statement returns a value",
         "answers": ["return", "break", "throw", "catch"]
 
       },
       {
         "type": "radio",
-        "question": "Расшифруйте аббревиатуру DOM",
+        "question": "What does DOM mean",
         "answers": ["Document Object Model", "Document Objects Mode", "Digital Optical Modulation", "Digital Optical Modul"]
       },
       {
         "type": "checkbox",
-        "question": "Метод, который округляет аргумент",
+        "question": "A method to round a number",
         "answers": ["Math.ceil()", "Math.floor()", "Math.round()", "Math.pow()"],
         "correct": 3
       },
       {
         "type": "radio",
-        "question": "Этот метод разбивает строку на подстроки в виде массив строк",
+        "question": "This method converts a string to an array",
         "answers": ["split()", "slice()", "charAt()", "splice()"]
       },
       {
         "type": "radio",
-        "question": "Что вернет выражение parseInt('007')",
-        "answers": ["7", "'007'", "ошибка", "ничего"]
+        "question": "What will return parseInt('007')",
+        "answers": ["7", "'007'", "error", "nothing"]
       },
       {
         "type": "checkbox",
-        "question": "Как добавить элемент elem в массив array?",
+        "question": "How to add element elem in the array array?",
         "answers": ["array.push(elem)", "array.shift(elem)", "array[array.length] = elem", "array.pop(elem)"],
         "correct": 3
       }
@@ -121,47 +121,47 @@
     "id": "57135",
     "theme": "JavaScript",
     "result": [
-      [20, "есть зададтки, нужно развивать"],
-      [60, "очень хорошо, но есть пробелы"],
-      [90, "отличный результат"]
+      [30, "you should learn more"],
+      [60, "very good, but you should repeat some topics"],
+      [90, "excellent"]
     ],
     "list": [
       {
         "type": "checkbox",
-        "question": "Как в JavaScript создать массив?",
+        "question": "How to define an array in JavaScript?",
         "answers": ["[]", "new Array()", "Array()", "array()"],
         "correct": 3
       },
       {
         "type": "radio",
-        "question": "Этот оператор завершает выполнение текущей функции и возвращает её значение.",
+        "question": "Which statement returns a value",
         "answers": ["return", "break", "throw", "catch"]
 
       },
       {
         "type": "radio",
-        "question": "Расшифруйте аббревиатуру DOM",
+        "question": "What does DOM mean",
         "answers": ["Document Object Model", "Document Objects Mode", "Digital Optical Modulation", "Digital Optical Modul"]
       },
       {
         "type": "checkbox",
-        "question": "Метод, который округляет аргумент",
+        "question": "A method to round a number",
         "answers": ["Math.ceil()", "Math.floor()", "Math.round()", "Math.pow()"],
         "correct": 3
       },
       {
         "type": "radio",
-        "question": "Этот метод разбивает строку на подстроки в виде массив строк",
+        "question": "This method converts a string to an array",
         "answers": ["split()", "slice()", "charAt()", "splice()"]
       },
       {
         "type": "radio",
-        "question": "Что вернет выражение parseInt('007')",
-        "answers": ["7", "'007'", "ошибка", "ничего"]
+        "question": "What will return parseInt('007')",
+        "answers": ["7", "'007'", "error", "nothing"]
       },
       {
         "type": "checkbox",
-        "question": "Как добавить элемент elem в массив array?",
+        "question": "How to add element elem in the array array?",
         "answers": ["array.push(elem)", "array.shift(elem)", "array[array.length] = elem", "array.pop(elem)"],
         "correct": 3
       }
@@ -171,78 +171,78 @@
     "id": "89345",
     "theme": "HTML",
     "result": [
-      [10, "есть зададтки, нужно развивать"],
-      [60, "очень хорошо, но есть пробелы"],
-      [90, "отличный результат"]
+      [30, "you should learn more"],
+      [60, "very good, but you should repeat some topics"],
+      [90, "excellent"]
     ],
     "list": [
       {
         "type": "radio",
-        "question": "Расшифруйте аббревиатуру HTML",
+        "question": "What does HTML mean",
         "answers": ["HyperText Markup Language", "HeadingText Markup Language", "HyperText Mode Language", "HeadingText Markup Language"]
       },
       {
         "type": "radio",
-        "question": "Какой тег используется для создания ссылки",
+        "question": "Which tag is used for links",
         "answers": ["<a>", "<link>", "<p>", "<button>"]
       },
       {
         "type": "radio",
-        "question": "Где должен быть тег title?",
+        "question": "Where should you place the <title> tag?",
         "answers": ["head", "main", "body", "footer"],
         "correct": 1
       },
       {
         "type": "radio",
-        "question": "Какая из предложенных ссылок является абсолютной?",
+        "question": "Which link is absolute?",
         "answers": ["http://www.site.com/page.html", "/page.html", "./page.html", "page.html"]
       },
       {
         "type": "radio",
-        "question": "Тег для вывода изображений",
+        "question": "Which tag is used for images?",
         "answers": ["img", "image", "picture", "figure"]
       },
       {
         "type": "radio",
-        "question": "Можно ли строчные элементы вкладывать в блочные?",
-        "answers": ["да, можно", "нет, это не семантичная верстка", "можно, только осторожно", "нет, это не валидно"]
+        "question": "Can you place incline elements into block elements?",
+        "answers": ["yes", "no, it's not semantic", "yes, but you should be careful", "no, it's not valid"]
       },
       {
         "type": "radio",
-        "question": "Сколько атрибутов id может быть на странице",
+        "question": "How many times you can use ID on a page?",
         "answers": ["Один", "Два", "Сколько угодно", "Не одного, нет такого атрибута"]
       },
       {
         "type": "checkbox",
-        "question": "Какие теги используются для списков",
+        "question": "Which tags are used for lists?",
         "answers": ["dl", "ol", "ul", "rl"],
         "correct": 3
       },
       {
         "type": "radio",
-        "question": "Как сделать элемент flex-контейнером?",
+        "question": "How to make element flex?",
         "answers": ["display: flex", "<flex>", "class=\"flex\"", "flex: 1"]
       },
       {
         "type": "checkbox",
-        "question": "Выберите значения свойства justify-content",
+        "question": "Choose values for justify-content",
         "answers": ["space-around", "space-between", "space-evenly", "space-revert"],
         "correct": 3
       },
       {
         "type": "radio",
-        "question": "Какое значение по умолчанию у свойства align-items?",
+        "question": "Which default value is in align-items?",
         "answers": ["stretch", "initial", "center", "space-around"]
       },
       {
         "type": "radio",
-        "question": "Можно ли использовать технологию Flex и Grid в одном проекте?",
-        "answers": ["да", "нет", "да, но только на разных страницах", "нет это сломает вёрстку"]
+        "question": "Can you use flex and grid in the same website?",
+        "answers": ["yes", "no", "yes, but on diffent pages", "no, it will ruin the layout"]
       },
       {
         "type": "radio",
-        "question": "Может ли грид-элемент быть грид-контейнером?",
-        "answers": ["да", "нет, вёрстка сломается", "да, только если inline-grid", "нет, так не работает"]
+        "question": "Can grid element be a grid container?",
+        "answers": ["yes", "no, it will ruin the layout", "yes, but only inline-grid", "no, it's not valid"]
       }
     ]
   }
