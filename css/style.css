@@ -424,6 +424,9 @@ button {
 }
 
 @media (max-width: 580px) {
+    .main__form-question::after {
+        bottom: -50px;
+    }
     .main__btn:not(.result__return) {
         margin-left: 0;
         min-width: 100%;
